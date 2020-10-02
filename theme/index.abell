@@ -1,0 +1,21 @@
+{{ 
+  const { contentArray } = Abell 
+  const Head = require('./components/Head.abell')
+  const Cards = require('./components/Cards.abell')
+  const Footer = require('./components/Footer.abell')
+}}
+<html>
+<head>
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="charset" content="utf-8" />
+<title>Abell CSS Minifier</title>
+</head>
+<body>
+<Head/>
+  <main>
+  <Cards props={contentArray} />
+  </main>
+  <Footer/>
+</body>
+</html>
