@@ -12,16 +12,13 @@
     "type": "git",
     "url": "git+https://github.com/PiyushSuthar/abell-css-minifier.git"
   },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  },
   "keywords": [
     "Abell",
     "css",
     "minify",
     "abell"
   ],
-  "author": "",
+  "author": "PiyushSuthar",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/PiyushSuthar/abell-css-minifier/issues"
