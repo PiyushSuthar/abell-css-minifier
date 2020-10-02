@@ -1,8 +1,22 @@
-# abell-plugin-starter
+# abell-css-minifier
+It minifies your Static CSS code.
 
+> Zero Dependencies!
 
-This starter is only for Abell v0.5+. 
+# Usage
 
-[plugin/index.js](plugin/index.js) is the file with all the code for plugin. 
+Install the plugin
+```sh
+npm install --save-dev abell-css-minifier
+```
+```js
+// In abell.config.js
+module.exports = {
+  plugins: ['abell-css-minifier'],
+  minifier: {
+    cssPath: "static/css" // Path to your static css in theme folder
+  }
+}
+```
 
-For detailed guide on how to use this starter, Check out https://abelljs.org/blog/how-to-build-plugins
+> Found Bugs? Create an Issue...
